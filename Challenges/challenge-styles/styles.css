@@ -1,0 +1,126 @@
+.challenge10-1 {
+    width: 500px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    border-color: rgb(200, 200, 200);
+}
+.challenge10-1-data {  
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  align-items: center;
+    
+}
+.challenge10-1-result {
+    background-color: rgb(49, 109, 245);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.challenge10-2 {
+    width: 350px;
+    margin-top: 30px;
+}
+
+.challenge10-2-image {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.challenge10-2-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.challenge10-2-data {
+    flex:1;
+}
+
+.challenge10-2-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.challenge10-2-line1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.challenge10-2-line2 {
+    font-size: 17px;
+    color: gray;
+}
+
+.challenge10-2-line3 {
+    font-size: 13px;
+    color: gray;
+}
+
+.challenge10-3 {
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: blueviolet;
+}
+
+.challenge10-3-base {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.challenge10-3-home {
+    color: white;
+    padding-left: 5px;
+    width: 100px;
+}
+
+.challenge10-3-search {
+    border-radius: 10px;
+    height: 18px;
+    flex:1;
+    border: none;
+    width:0;
+}
+
+.challenge10-3-button {
+    width: 100px;
+    margin-left:40px;
+    margin-right:10px;
+    border-color: white;
+    border-width: 1.5px;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    flex-shrink: 0;
+}
